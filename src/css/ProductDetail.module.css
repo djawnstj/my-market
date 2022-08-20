@@ -1,0 +1,26 @@
+.Img {
+    height: 500px;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.Contents {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Title {
+    display: flex;
+}
+.Title > div:nth-child(1) {
+    width: 70%;
+}
+.Title > div:nth-child(2) {
+    width: 30%;
+}
+
+.Content {
+    width: 100%;
+}
